@@ -1,0 +1,1464 @@
+fileFormatVersion: 2
+guid: 54a5673118ce0e24ab9dce7630810e98
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 943
+        width: 73
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6911f43943bbc42bc6471b50e58720
+      internalID: 42772789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 943
+        width: 66
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ebc4ee407cdeb4c956da449b5bbf33
+      internalID: 54065855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 943
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33aea20e171df7429357291ff26d64b
+      internalID: -1772487350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 943
+        width: 72
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6df13f65be13943acda29433cb061d
+      internalID: -801005579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 944
+        width: 69
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5576e1a072ab6f944857b72bc10fc2db
+      internalID: -1276704850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 945
+        width: 69
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9ac0292c6458643a9c07f7d6e5e6b8
+      internalID: 542335331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 945
+        width: 70
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8382f9c42634b03439a32d490e6cc8ac
+      internalID: 724395277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 943
+        width: 73
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d6a7b65cad6da4897325658bc81210
+      internalID: 2025836123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 943
+        width: 73
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba38b53420d4e8042be781d6438c4097
+      internalID: -2108664181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 943
+        width: 73
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45a6ae1eeefaa64eb71be21c9bff3fa
+      internalID: -33058627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 856
+        width: 45
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993b8ef038b4c9340a47c868fe1f01ec
+      internalID: -534276551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 856
+        width: 53
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f311f374c1065714b8cb2a4a4ca60f1e
+      internalID: 1947325964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 856
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5dbe503a35edb4db0fcf86bece658a
+      internalID: -447758238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 856
+        width: 62
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832e4fe249dfa9a46b49beb02b94671d
+      internalID: 1370427344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 862
+        width: 68
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2793062868dd855468849de5b54d7b80
+      internalID: -1312094007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_15
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 863
+        width: 75
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ec8aa68ae7c254497022e3b57dcf93
+      internalID: -265201850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_16
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 863
+        width: 53
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 723d371085828bf4cb679367efe019c1
+      internalID: -771702079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_17
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 768
+        width: 48
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8207bb4bf1f641247b62b6cae922f9bc
+      internalID: -1846645774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_18
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 768
+        width: 62
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74bc028b5ea77f14fb273aea9ab08a75
+      internalID: 1897685932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_19
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 767
+        width: 51
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de45970f91716e245a555ae1514dc2a9
+      internalID: 822312420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_20
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 767
+        width: 83
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def080fc969a79c4cab64f694ca18553
+      internalID: 341885848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_21
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 767
+        width: 73
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7460178b6854046a2a367e82210a58
+      internalID: -1436849246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_22
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 767
+        width: 45
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821a78c83c1d8fe49a9dd63078e8483d
+      internalID: 355074473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_23
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 767
+        width: 85
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a097f8e155d14b4baa9e88dd2c0f95b
+      internalID: 428398590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_24
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 766
+        width: 48
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bfe5a02365009247a4a19df7efd84ed
+      internalID: -1715597599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_25
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 655
+        width: 61
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dae981246dca9945b1e447af7b92b5a
+      internalID: -2085720219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_26
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 655
+        width: 82
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7adf36a57c0dcda40819da5d130212d5
+      internalID: -471231955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_27
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 655
+        width: 73
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f889716b50e252646b437ef209e8535f
+      internalID: -1300634168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_28
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 655
+        width: 56
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63c02901f04b35458d27fbf81cb7a70
+      internalID: -505087519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_29
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 608
+        width: 36
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84bc23583274dcd4c949f323be4f73ca
+      internalID: -797896292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_30
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 455
+        width: 61
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc2f717be811a1041bc6afebe6e3b4c6
+      internalID: 1323995884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_31
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 455
+        width: 86
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9bdcaa73ec8c7c4e947db07cf544daf
+      internalID: 300319766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_32
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 455
+        width: 76
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77535f3f6a17e546bd9e230b78749cf
+      internalID: 1187399401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_33
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 336
+        width: 46
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab87619e1c743b2459c06790dd0861cb
+      internalID: -656754745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_34
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 336
+        width: 44
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce9390549a02774e9a7c88b3ae39395
+      internalID: -383807206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_35
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 336
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef9b3592e3bf7940b247d015dfe615f
+      internalID: -728823619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 232
+        width: 950
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642f72e11cd9ce647b9c8bf3a2fb59b8
+      internalID: 1259147150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_37
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 232
+        width: 66
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875e66783dd22984eac4583a732a2438
+      internalID: 332945498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_38
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 232
+        width: 62
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5342fa92e01ff84b84ffb8a9be02bf6
+      internalID: 115819616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_39
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 232
+        width: 51
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83e07ea67127b24ebf5fbe6f355390d
+      internalID: 1879994492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_40
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 232
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52760cb6a20345489b4d08160c4b47e
+      internalID: 7219230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_41
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 232
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cfba812a5708cc488b8ebf0fa9b1ef3
+      internalID: -866727168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_42
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 232
+        width: 47
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56fdb8854657e2748aa3dcfb6cd47477
+      internalID: -1739364013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_43
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 232
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4764743865b665a4396ba045c9909c69
+      internalID: 732456153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_44
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 233
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0028217d07e144fa42ad99884fa4dc
+      internalID: 1977917296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_45
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 232
+        width: 72
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69150d96403163448a1d2602fa95e9b
+      internalID: -1588065645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_46
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 232
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9d77e0ee273d5418540b7d86bad922
+      internalID: -668958963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_47
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 136
+        width: 38
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d9e4fcfd09a6b4ab5fd865aa004234
+      internalID: -1850606548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_48
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 136
+        width: 61
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69fa4df45bf5c2c4990214116eb10322
+      internalID: -114517416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_49
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 136
+        width: 40
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d155d26f04c4af4d89ab6c79891863a
+      internalID: -1184955659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_50
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 136
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a54dd5a0842f54d984d823e9f8324b
+      internalID: 96150831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_51
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 136
+        width: 31
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269f9526950871a4a96c23ef16ae9c21
+      internalID: 1306913880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_52
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 136
+        width: 83
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3738628b8fab51e48b3cfc8337ea89af
+      internalID: 1129482988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_53
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 136
+        width: 40
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd67c4d5a35f11468ea3d9e52115986
+      internalID: 517989582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_54
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 48
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab1eaddc33cdde4a86fcb76557b9dc1
+      internalID: 1227215076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_55
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 48
+        width: 72
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7101a8e80c53b904a83cf9592c36ea37
+      internalID: -1188090013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_56
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 48
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0260d4628ac004db2f760adc16efd2
+      internalID: -512619293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_57
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 48
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fea590b56617d04fb50129879f907e3
+      internalID: 306499613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hibiki Tachibana 2D Sprite_58
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 48
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f13e3e49b9e37db47b22b605d96b407f
+      internalID: -781188402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Hibiki Tachibana 2D Sprite_0: 42772789
+      Hibiki Tachibana 2D Sprite_1: 54065855
+      Hibiki Tachibana 2D Sprite_10: -534276551
+      Hibiki Tachibana 2D Sprite_11: 1947325964
+      Hibiki Tachibana 2D Sprite_12: -447758238
+      Hibiki Tachibana 2D Sprite_13: 1370427344
+      Hibiki Tachibana 2D Sprite_14: -1312094007
+      Hibiki Tachibana 2D Sprite_15: -265201850
+      Hibiki Tachibana 2D Sprite_16: -771702079
+      Hibiki Tachibana 2D Sprite_17: -1846645774
+      Hibiki Tachibana 2D Sprite_18: 1897685932
+      Hibiki Tachibana 2D Sprite_19: 822312420
+      Hibiki Tachibana 2D Sprite_2: -1772487350
+      Hibiki Tachibana 2D Sprite_20: 341885848
+      Hibiki Tachibana 2D Sprite_21: -1436849246
+      Hibiki Tachibana 2D Sprite_22: 355074473
+      Hibiki Tachibana 2D Sprite_23: 428398590
+      Hibiki Tachibana 2D Sprite_24: -1715597599
+      Hibiki Tachibana 2D Sprite_25: -2085720219
+      Hibiki Tachibana 2D Sprite_26: -471231955
+      Hibiki Tachibana 2D Sprite_27: -1300634168
+      Hibiki Tachibana 2D Sprite_28: -505087519
+      Hibiki Tachibana 2D Sprite_29: -797896292
+      Hibiki Tachibana 2D Sprite_3: -801005579
+      Hibiki Tachibana 2D Sprite_30: 1323995884
+      Hibiki Tachibana 2D Sprite_31: 300319766
+      Hibiki Tachibana 2D Sprite_32: 1187399401
+      Hibiki Tachibana 2D Sprite_33: -656754745
+      Hibiki Tachibana 2D Sprite_34: -383807206
+      Hibiki Tachibana 2D Sprite_35: -728823619
+      Hibiki Tachibana 2D Sprite_36: 1259147150
+      Hibiki Tachibana 2D Sprite_37: 332945498
+      Hibiki Tachibana 2D Sprite_38: 115819616
+      Hibiki Tachibana 2D Sprite_39: 1879994492
+      Hibiki Tachibana 2D Sprite_4: -1276704850
+      Hibiki Tachibana 2D Sprite_40: 7219230
+      Hibiki Tachibana 2D Sprite_41: -866727168
+      Hibiki Tachibana 2D Sprite_42: -1739364013
+      Hibiki Tachibana 2D Sprite_43: 732456153
+      Hibiki Tachibana 2D Sprite_44: 1977917296
+      Hibiki Tachibana 2D Sprite_45: -1588065645
+      Hibiki Tachibana 2D Sprite_46: -668958963
+      Hibiki Tachibana 2D Sprite_47: -1850606548
+      Hibiki Tachibana 2D Sprite_48: -114517416
+      Hibiki Tachibana 2D Sprite_49: -1184955659
+      Hibiki Tachibana 2D Sprite_5: 542335331
+      Hibiki Tachibana 2D Sprite_50: 96150831
+      Hibiki Tachibana 2D Sprite_51: 1306913880
+      Hibiki Tachibana 2D Sprite_52: 1129482988
+      Hibiki Tachibana 2D Sprite_53: 517989582
+      Hibiki Tachibana 2D Sprite_54: 1227215076
+      Hibiki Tachibana 2D Sprite_55: -1188090013
+      Hibiki Tachibana 2D Sprite_56: -512619293
+      Hibiki Tachibana 2D Sprite_57: 306499613
+      Hibiki Tachibana 2D Sprite_58: -781188402
+      Hibiki Tachibana 2D Sprite_6: 724395277
+      Hibiki Tachibana 2D Sprite_7: 2025836123
+      Hibiki Tachibana 2D Sprite_8: -2108664181
+      Hibiki Tachibana 2D Sprite_9: -33058627
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
