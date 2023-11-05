@@ -1,49 +1,50 @@
-//using System.Collections;
-//using System.Collections.Generic;
-//using UnityEngine;
-//using UnityEngine.AI;
 
-//public class PatrolScript : MonoBehaviour
-//{
+using Assets;
+using UnityEditor.Rendering;
+using UnityEngine;
+using UnityEngine.AI;
+using UnityEngine.UIElements;
 
-//    public Transform[] points;
-//    private int destPoint = 0;
-//    private NavMeshAgent agent;
+public class PatrolScript : MonoBehaviour
+{
 
+    public bool isMovingRight = true;
+    private Rigidbody2D rb;
+    public Transform leftEnd;
+    public Transform rightEnd;
+    public float speed = 2f;
 
-//    void Start()
-//    {
-//        agent = GetComponent<NavMeshAgent>();
+    float xscale;
+    void Start()
+    {
 
-//        // Disabling auto-braking allows for continuous movement
-//        // between points (ie, the agent doesn't slow down as it
-//        // approaches a destination point).
-//        agent.autoBraking = false;
-
-//        GotoNextPoint();
-//    }
-
-
-//    void GotoNextPoint()
-//    {
-//        // Returns if no points have been set up
-//        if (points.Length == 0)
-//            return;
-
-//        // Set the agent to go to the currently selected destination.
-//        agent.destination = points[destPoint].position;
-
-//        // Choose the next point in the array as the destination,
-//        // cycling to the start if necessary.
-//        destPoint = (destPoint + 1) % points.Length;
-//    }
+        rb = GetComponent<Rigidbody2D>();
+        xscale = transform.localScale.x;
+    }
 
 
-//    void Update()
-//    {
-//        // Choose the next destination point when the agent gets
-//        // close to the current one.
-//        if (!agent.pathPending && agent.remainingDistance < 0.5f)
-//            GotoNextPoint();
-//    }
-//}
+    void FixedUpdate()
+    {
+        if (isMovingRight)
+        {
+            rb.velocity = new Vector2(speed, 0f);
+        }
+        else
+        {
+            rb.velocity = new Vector2(-speed, 0f);
+        }
+
+        if (transform.position.x > rightEnd.position.x)
+        {
+            isMovingRight = false;
+        }
+        if (transform.position.x < leftEnd.position.x)
+        {
+            isMovingRight = true;
+        }
+
+        GameService.Instance.isFlip(rb, transform, xscale);
+    }
+
+
+}

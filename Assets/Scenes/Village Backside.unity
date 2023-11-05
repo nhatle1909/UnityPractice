@@ -1624,9 +1624,6 @@ MonoBehaviour:
   jump_force: 15
   horizontal: 0
   rb: {fileID: 786468205}
-  tempt:
-    serializedVersion: 2
-    m_Bits: 0
 --- !u!114 &786468211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1943,6 +1940,7 @@ GameObject:
   m_Component:
   - component: {fileID: 846460733}
   - component: {fileID: 846460734}
+  - component: {fileID: 846460735}
   m_Layer: 6
   m_Name: BG
   m_TagString: Untagged
@@ -2020,6 +2018,18 @@ PolygonCollider2D:
       - {x: 29.98518, y: -6.774888}
       - {x: 30.030909, y: -2.0037003}
   m_UseDelaunayMesh: 0
+--- !u!114 &846460735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 846460732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: decc37bc45fcf064d97802e47b500e9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &876127353
 GameObject:
   m_ObjectHideFlags: 3
@@ -2252,6 +2262,7 @@ GameObject:
   - component: {fileID: 958449539}
   - component: {fileID: 958449540}
   - component: {fileID: 958449541}
+  - component: {fileID: 958449542}
   m_Layer: 7
   m_Name: Skeleton
   m_TagString: Untagged
@@ -2447,16 +2458,11 @@ MonoBehaviour:
   HP: 20
   ATK: 10
   currentHP: 0
-  speed: 2
-  rb: {fileID: 0}
-  leftEnd: {fileID: 435418723}
-  rightEnd: {fileID: 1050640087}
   attackRange: 1
   AttackPoint: {fileID: 1452756285}
   enemyLayer:
     serializedVersion: 2
     m_Bits: 256
-  isMovingRight: 1
 --- !u!61 &958449541
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2502,6 +2508,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.34076285, y: 0.4444577}
   m_EdgeRadius: 0
+--- !u!114 &958449542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 958449529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b271ebd668b5944293ced90efbf083c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isMovingRight: 1
+  leftEnd: {fileID: 435418723}
+  rightEnd: {fileID: 1050640087}
+  speed: 2
 --- !u!1 &987373195
 GameObject:
   m_ObjectHideFlags: 0
@@ -2645,6 +2667,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1032238330}
   - component: {fileID: 1032238331}
+  - component: {fileID: 1032238332}
   m_Layer: 6
   m_Name: BorderLeft
   m_TagString: Untagged
@@ -2712,6 +2735,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.94695854, y: 7.365129}
   m_EdgeRadius: 0
+--- !u!114 &1032238332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032238329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: decc37bc45fcf064d97802e47b500e9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1050640086
 GameObject:
   m_ObjectHideFlags: 0
@@ -6427,7 +6462,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1452756285}
   m_Layer: 7
-  m_Name: GameObject
+  m_Name: AttackPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7170,7 +7205,7 @@ Transform:
   m_GameObject: {fileID: 2025203154}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.3709631, y: -0.20131999, z: -10}
+  m_LocalPosition: {x: -3.6672, y: -0.2, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []

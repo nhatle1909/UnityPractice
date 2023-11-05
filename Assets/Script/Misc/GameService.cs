@@ -37,13 +37,15 @@ namespace Assets
            }
         }
 
-        public void isDamaged(int HP, int currentHP,Animator animator)
+        public void isDamaged(int HP, ref int currentHP,Animator animator)
         {
             if (currentHP > HP)
             {
                 animator.SetTrigger(AnimationStringManager.Hit);
                 currentHP = HP;
             }
+            
+         
         }
 
 

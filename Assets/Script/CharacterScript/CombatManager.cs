@@ -38,7 +38,7 @@ namespace Assets
         {
             HPBar.value = HP;
             GameService.Instance.isDeath(HP, animator);
-            GameService.Instance.isDamaged(HP, currentHP, animator);
+            GameService.Instance.isDamaged(HP, ref currentHP, animator);
 
 
         }
