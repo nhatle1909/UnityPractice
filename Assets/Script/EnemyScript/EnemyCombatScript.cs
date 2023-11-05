@@ -13,14 +13,11 @@ namespace Assets
         public int ATK = 10;
 
         public int currentHP;
-        public float speed = 2f;
 
-        public Rigidbody2D rb;
-        public Transform leftEnd;
-        public Transform rightEnd;
+        private Rigidbody2D rb;
+
         private Animator animator;
 
-        float xscale;
 
         public float attackRange = 1f;
 
@@ -28,14 +25,13 @@ namespace Assets
 
         public LayerMask enemyLayer;
 
-        public bool isMovingRight = true;
+      
         // Start is called before the first frame update
         void Start()
         {
             animator = GetComponent<Animator>();
             currentHP = HP;
             rb = GetComponent<Rigidbody2D>();
-            xscale = transform.localScale.x;
         }
 
 
@@ -43,29 +39,8 @@ namespace Assets
         // Update is called once per frame
         void FixedUpdate()
         {
-
-            if (isMovingRight)
-            {
-                rb.velocity = new Vector2(speed, 0f);
-            }
-            else
-            {
-                rb.velocity = new Vector2(-speed, 0f);
-            }
-
-            if (transform.position.x > rightEnd.position.x)
-            {
-                isMovingRight = false;
-            }
-            if (transform.position.x < leftEnd.position.x)
-            {
-
-                isMovingRight = true;
-            }
-
-            GameService.Instance.isFlip(rb, transform, xscale);
             GameService.Instance.isDeath(HP, animator);
-            GameService.Instance.isDamaged(HP, currentHP, animator);
+            GameService.Instance.isDamaged(HP, ref currentHP, animator);
 
         }
 
@@ -80,14 +55,14 @@ namespace Assets
                 animator.SetTrigger(AnimationStringManager.Attack);
             }
         }
-        public void OnCollisionExit2D(Collision2D collision)
+        public void OnTriggerExit2D(Collider2D collision)
         {
-            if (collision.gameObject.tag == "Player")
+            if(collision.gameObject.tag == "Player")
             {
                 rb.bodyType = RigidbodyType2D.Dynamic;
             }
         }
-
+     
 
         public void AttackEvent()
         {
@@ -99,7 +74,7 @@ namespace Assets
         }
         public void DestroyObject()
         {
-            Destroy(gameObject);
+            Destroy(transform.parent.gameObject);
         }
 
 

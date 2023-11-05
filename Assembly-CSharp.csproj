@@ -61,16 +61,18 @@
     <Compile Include="Assets\Script\ScriptThatIsNotUsed\IAnimationState.cs" />
     <Compile Include="Assets\Script\BGScript\ParallaxScrolling.cs" />
     <Compile Include="Assets\Script\Misc\PlayGame.cs" />
-    <Compile Include="Assets\Script\Script\SceneManager.cs" />
     <Compile Include="Assets\Script\CharacterScript\CharacterMovement.cs" />
+    <Compile Include="Assets\Script\BGScript\LoadNextSceneScript.cs" />
     <Compile Include="Assets\Script\CharacterScript\CombatManager.cs" />
     <Compile Include="Assets\Script\CharacterScript\PlayerCharacterSO.cs" />
     <Compile Include="Assets\Script\Misc\GameService.cs" />
     <Compile Include="Assets\Script\BGScript\SignRoadScript.cs" />
     <Compile Include="Assets\Script\ScriptThatIsNotUsed\Script.cs" />
+    <Compile Include="Assets\Script\Misc\ListSceneManager.cs" />
     <Compile Include="Assets\Script\ScriptThatIsNotUsed\AnimationState.cs" />
     <Compile Include="Assets\Script\EnemyScript\EnemyCombatScript.cs" />
     <Compile Include="Assets\Script\CharacterScript\CharacterMovementBinding.cs" />
+    <Compile Include="Assets\Script\BGScript\LoadPreviousSceneScript.cs" />
     <Compile Include="Assets\Script\EnemyScript\PatrolScript.cs" />
     <Compile Include="Assets\Script\CharacterScript\AnimationStringManager.cs" />
   </ItemGroup>

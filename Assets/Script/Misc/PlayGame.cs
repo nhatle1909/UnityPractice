@@ -10,7 +10,7 @@ namespace Assets
         // Start is called before the first frame update
         public void StartGame()
         {
-            SceneManager.LoadSceneAsync("AstalVillage");
+            SceneManager.LoadSceneAsync("Village Backside");
 
         }
         public void ExitGame()
