@@ -10,10 +10,11 @@ namespace Assets
 
         private Animator animator;
         private CharacterMovement charMovement;
-
+        private CharacterStats charStats;
         private void Start() 
         { 
-            charMovement = GameObject.Find("Player").GetComponent<CharacterMovement>();
+            charStats = GetComponent<CharacterStats>();
+            charMovement = GetComponent<CharacterMovement>();
             animator = GetComponent<Animator>();
         }
 
@@ -25,7 +26,7 @@ namespace Assets
                 animator.SetBool(AnimationStringManager.Crouch, false); // Disable playing Crouch Animation when jump while Crouching
                 animator.SetTrigger(AnimationStringManager.Jump); // Enable playing Jump Animation
 
-                charMovement.rb.velocity = new Vector2(charMovement.horizontal, charMovement.jump_force);
+                charMovement.rb.velocity = new Vector2(charMovement.horizontal, charStats.Jump_Force);
             }
         }
 
@@ -38,12 +39,12 @@ namespace Assets
         {       
             if (context.performed)
             {
-                charMovement.speed = 2.5f;
+                charStats.Speed = 2.5f;
             }
 
             if (context.canceled)
             {
-                charMovement.speed = 5f;     
+                charStats.Speed = 5f;     
             }
         }
 

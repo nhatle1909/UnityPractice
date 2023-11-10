@@ -12,12 +12,12 @@ public class PatrolScript : MonoBehaviour
     private Rigidbody2D rb;
     public Transform leftEnd;
     public Transform rightEnd;
-    public float speed = 2f;
+    private EnemyStats enemyStats;
 
     float xscale;
     void Start()
     {
-
+        enemyStats = GetComponent<EnemyStats>();
         rb = GetComponent<Rigidbody2D>();
         xscale = transform.localScale.x;
     }
@@ -27,11 +27,11 @@ public class PatrolScript : MonoBehaviour
     {
         if (isMovingRight)
         {
-            rb.velocity = new Vector2(speed, 0f);
+            rb.velocity = new Vector2(enemyStats.Speed, 0f);
         }
         else
         {
-            rb.velocity = new Vector2(-speed, 0f);
+            rb.velocity = new Vector2(-enemyStats.Speed, 0f);
         }
 
         if (transform.position.x > rightEnd.position.x)

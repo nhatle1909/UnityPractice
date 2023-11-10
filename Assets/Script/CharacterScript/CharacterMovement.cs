@@ -4,15 +4,7 @@ using UnityEngine;
 namespace Assets {
     public class CharacterMovement : MonoBehaviour
     {
-
-        [SerializeField]
-        public float speed = 5f;
-        [SerializeField]
-        public float jump_force = 15f;
-
-
         public float horizontal;
-
 
         public Rigidbody2D rb;
 
@@ -20,12 +12,12 @@ namespace Assets {
 
         private float xScale;
 
-
+        private CharacterStats charStats;
 
 
         private void Start()
         {
-
+            charStats = GetComponent<CharacterStats>();  
             animator = GetComponent<Animator>();
             rb = GetComponent<Rigidbody2D>();
             xScale = transform.localScale.x;
@@ -34,7 +26,7 @@ namespace Assets {
 
         private void FixedUpdate()
         {
-            rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+            rb.velocity = new Vector2(horizontal * charStats.Speed, rb.velocity.y);
 
             if (rb.velocity.y >= 0f) // Velocity Y >= 0 -> Play Fall Animation , < 0 , Disable Fall Animation
             {
@@ -56,7 +48,7 @@ namespace Assets {
                 animator.SetBool(AnimationStringManager.Running, false);
             }
 
-            if (speed == 2.5f) // Speed = 2.5F -> Play Crouching animation, else disable
+            if (charStats.Speed == 2.5f) // Speed = 2.5F -> Play Crouching animation, else disable
             {
                 animator.SetBool(AnimationStringManager.Crouch, true);
             }
