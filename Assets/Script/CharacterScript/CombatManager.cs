@@ -8,16 +8,12 @@ namespace Assets
     {
         // Start is called before the first frame update
 
-        [SerializeField]
-        public int HP = 20;
-        [SerializeField]
-        public int ATK = 10;
-        [SerializeField]
-        public int DEF = 5;
+
+        private CharacterStats charStats;
 
         public int currentHP;
 
-        public float attackRange = 1f;
+      
 
         public Transform AttackPoint;
 
@@ -29,26 +25,27 @@ namespace Assets
 
         private void Start()
         {
+            charStats = GetComponent<CharacterStats>();
             animator = GetComponent<Animator>();
             HPBar = GameObject.Find("HP").GetComponent<UnityEngine.UI.Slider>();
-            HPBar.maxValue = HP;
-            currentHP = HP;
+            HPBar.maxValue = charStats.HP;
+            currentHP = charStats.HP;
         }
         public void Update()
         {
-            HPBar.value = HP;
-            GameService.Instance.isDeath(HP, animator);
-            GameService.Instance.isDamaged(HP, ref currentHP, animator);
+            HPBar.value = charStats.HP;
+            GameService.Instance.isDeath(charStats.HP, animator);
+            GameService.Instance.isDamaged(charStats.HP, ref currentHP, animator);
 
 
         }
 
         public void AttackEvent()
         {
-            Collider2D[] hits = Physics2D.OverlapCircleAll(AttackPoint.position, attackRange, enemyLayer);
+            Collider2D[] hits = Physics2D.OverlapCircleAll(AttackPoint.position, charStats.attackRange, enemyLayer);
             foreach (Collider2D hit in hits)
             {
-                hit.gameObject.GetComponent<EnemyCombatScript>().HP -= ATK;
+                hit.gameObject.GetComponent<EnemyStats>().HP -= charStats.ATK;
             }
         }
         public void Pause()

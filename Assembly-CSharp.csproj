@@ -58,21 +58,26 @@
     <Analyzer Include="D:\DevTools\Unity\Unity Editor\2022.3.10f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Script\ScriptThatIsNotUsed\IAnimationState.cs" />
+    <Compile Include="Assets\Script\CharacterScript\CharacterStats.cs" />
+    <Compile Include="Assets\Script\BGScript\DisplayMessageScript.cs" />
     <Compile Include="Assets\Script\BGScript\ParallaxScrolling.cs" />
     <Compile Include="Assets\Script\Misc\PlayGame.cs" />
+    <Compile Include="Assets\Script\ScriptThatIsNotUsed_UselessScript\Script.cs" />
     <Compile Include="Assets\Script\CharacterScript\CharacterMovement.cs" />
-    <Compile Include="Assets\Script\BGScript\LoadNextSceneScript.cs" />
+    <Compile Include="Assets\Script\Misc\ListMapManager.cs" />
     <Compile Include="Assets\Script\CharacterScript\CombatManager.cs" />
+    <Compile Include="Assets\Script\EnemyScript\EnemyStats.cs" />
     <Compile Include="Assets\Script\CharacterScript\PlayerCharacterSO.cs" />
+    <Compile Include="Assets\Script\ScriptThatIsNotUsed_UselessScript\IAnimationState.cs" />
+    <Compile Include="Assets\DontDestroyYOUSTUPIDscript.cs" />
     <Compile Include="Assets\Script\Misc\GameService.cs" />
-    <Compile Include="Assets\Script\BGScript\SignRoadScript.cs" />
-    <Compile Include="Assets\Script\ScriptThatIsNotUsed\Script.cs" />
-    <Compile Include="Assets\Script\Misc\ListSceneManager.cs" />
-    <Compile Include="Assets\Script\ScriptThatIsNotUsed\AnimationState.cs" />
+    <Compile Include="Assets\Script\BGScript\LoadNextMap.cs" />
+    <Compile Include="Assets\Script\EnemyScript\EnemyStatsScriptableObject\EnemyStatsTemplate.cs" />
+    <Compile Include="Assets\CameraRenderScript.cs" />
     <Compile Include="Assets\Script\EnemyScript\EnemyCombatScript.cs" />
+    <Compile Include="Assets\Script\ScriptThatIsNotUsed_UselessScript\AnimationState.cs" />
     <Compile Include="Assets\Script\CharacterScript\CharacterMovementBinding.cs" />
-    <Compile Include="Assets\Script\BGScript\LoadPreviousSceneScript.cs" />
+    <Compile Include="Assets\Script\BGScript\LoadPreviousMap.cs" />
     <Compile Include="Assets\Script\EnemyScript\PatrolScript.cs" />
     <Compile Include="Assets\Script\CharacterScript\AnimationStringManager.cs" />
   </ItemGroup>

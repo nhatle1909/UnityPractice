@@ -63,7 +63,17 @@ namespace Assets
             }
         }
 
-        public void isDeath(int HP, Animator animator)
+        public void isDeath(int HP, Animator animator,Rigidbody2D rb) // For Enemy Bot
+        {
+            if (HP <= 0)
+            {
+                rb.bodyType = RigidbodyType2D.Static;
+                animator.SetTrigger(AnimationStringManager.Death);
+            }
+
+        }
+
+        public void isDeath(int HP, Animator animator) // For Player
         {
             if (HP <= 0)
             {
@@ -71,6 +81,6 @@ namespace Assets
             }
 
         }
-       
+
     }
 }
