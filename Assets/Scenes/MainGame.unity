@@ -411,7 +411,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -622.58655, y: 490.22}
+  m_AnchoredPosition: {x: -649, y: 442}
   m_SizeDelta: {x: 545.845, y: 137.93}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &230456626
@@ -640,7 +640,7 @@ GameObject:
   m_Component:
   - component: {fileID: 280171372}
   - component: {fileID: 280171373}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: background_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -724,7 +724,7 @@ GameObject:
   m_Component:
   - component: {fileID: 285517235}
   - component: {fileID: 285517236}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: background_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -808,7 +808,7 @@ GameObject:
   m_Component:
   - component: {fileID: 311605746}
   - component: {fileID: 311605747}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -877,10 +877,10 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 4.3382807, y: -2.1584997}
-      - {x: 4.336325, y: 0.9250635}
-      - {x: -4.3255544, y: 0.9209523}
-      - {x: -4.324618, y: -2.1335514}
+    - - {x: 4.3178186, y: -2.1354797}
+      - {x: 4.315863, y: 0.8943702}
+      - {x: -4.310208, y: 0.9056057}
+      - {x: -4.314387, y: -2.1412246}
   m_UseDelaunayMesh: 0
 --- !u!1 &345726031
 GameObject:
@@ -892,7 +892,7 @@ GameObject:
   m_Component:
   - component: {fileID: 345726032}
   - component: {fileID: 345726033}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BG2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1147,7 +1147,7 @@ GameObject:
   m_Component:
   - component: {fileID: 434959634}
   - component: {fileID: 434959635}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: background_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1871,7 +1871,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.4, y: 0.4}
+  m_Size: {x: 0.21, y: 0.38}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1886,7 +1886,7 @@ Transform:
   m_GameObject: {fileID: 786468200}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 44.05, y: 2.87, z: 0}
+  m_LocalPosition: {x: 44.093, y: 2.784, z: 0}
   m_LocalScale: {x: 6, y: 4, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1957,8 +1957,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.4, y: 0.4}
-    newSize: {x: 0.4, y: 0.4}
+    oldSize: {x: 0.21, y: 0.38}
+    newSize: {x: 0.21, y: 0.38}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -2344,7 +2344,7 @@ GameObject:
   m_Component:
   - component: {fileID: 846381198}
   - component: {fileID: 846381199}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: background_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2896,7 +2896,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1027484820}
   - component: {fileID: 1027484821}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: background_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3530,7 +3530,7 @@ Transform:
   m_GameObject: {fileID: 1250851029}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 44.05, y: 2.87, z: -10}
+  m_LocalPosition: {x: 44.093, y: 2.784, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7056,7 +7056,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1445228787}
   - component: {fileID: 1445228788}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BG3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7348,7 +7348,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1536254283}
   - component: {fileID: 1536254284}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: background_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7453,11 +7453,11 @@ RectTransform:
   - {fileID: 1661631673}
   m_Father: {fileID: 230456625}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.25}
-  m_AnchorMax: {x: 1, y: 0.75}
-  m_AnchoredPosition: {x: -2.4997864, y: 0}
-  m_SizeDelta: {x: -15.001, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 57, y: -1}
+  m_SizeDelta: {x: 411.94, y: 68}
+  m_Pivot: {x: 0.4721696, y: 0.5}
 --- !u!1 &1577339926
 GameObject:
   m_ObjectHideFlags: 0
@@ -7467,7 +7467,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1577339927}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BG1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7502,7 +7502,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1640825701}
   - component: {fileID: 1640825702}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: background_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7586,7 +7586,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1647933106}
   - component: {fileID: 1647933107}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: background_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7694,8 +7694,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 67.959946, y: 0}
-  m_SizeDelta: {x: -116.08, y: -50}
+  m_AnchoredPosition: {x: -2.642, y: 0}
+  m_SizeDelta: {x: -5.284, y: -50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1661631674
 MonoBehaviour:
@@ -11026,7 +11026,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1973737743}
   - component: {fileID: 1973737744}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: background_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11328,7 +11328,7 @@ Transform:
   m_GameObject: {fileID: 2025203154}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 36.411503, y: 1.12834, z: -10}
+  m_LocalPosition: {x: 36.060627, y: 1.12852, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []

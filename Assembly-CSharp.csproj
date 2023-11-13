@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\CharacterScript\CharacterStats.cs" />
+    <Compile Include="Assets\Script\TestCode\Observer.cs" />
     <Compile Include="Assets\Script\BGScript\DisplayMessageScript.cs" />
     <Compile Include="Assets\Script\BGScript\ParallaxScrolling.cs" />
     <Compile Include="Assets\Script\Misc\PlayGame.cs" />
@@ -66,6 +67,7 @@
     <Compile Include="Assets\Script\CharacterScript\CharacterMovement.cs" />
     <Compile Include="Assets\Script\Misc\ListMapManager.cs" />
     <Compile Include="Assets\Script\CharacterScript\CombatManager.cs" />
+    <Compile Include="Assets\Script\TestCode\ICombatObserver.cs" />
     <Compile Include="Assets\Script\EnemyScript\EnemyStats.cs" />
     <Compile Include="Assets\Script\CharacterScript\PlayerCharacterSO.cs" />
     <Compile Include="Assets\Script\ScriptThatIsNotUsed_UselessScript\IAnimationState.cs" />
@@ -73,11 +75,13 @@
     <Compile Include="Assets\Script\Misc\GameService.cs" />
     <Compile Include="Assets\Script\BGScript\LoadNextMap.cs" />
     <Compile Include="Assets\Script\EnemyScript\EnemyStatsScriptableObject\EnemyStatsTemplate.cs" />
+    <Compile Include="Assets\Script\TestCode\CombatObserver.cs" />
     <Compile Include="Assets\CameraRenderScript.cs" />
     <Compile Include="Assets\Script\EnemyScript\EnemyCombatScript.cs" />
     <Compile Include="Assets\Script\ScriptThatIsNotUsed_UselessScript\AnimationState.cs" />
     <Compile Include="Assets\Script\CharacterScript\CharacterMovementBinding.cs" />
     <Compile Include="Assets\Script\BGScript\LoadPreviousMap.cs" />
+    <Compile Include="Assets\Script\TestCode\IObserver.cs" />
     <Compile Include="Assets\Script\EnemyScript\PatrolScript.cs" />
     <Compile Include="Assets\Script\CharacterScript\AnimationStringManager.cs" />
   </ItemGroup>

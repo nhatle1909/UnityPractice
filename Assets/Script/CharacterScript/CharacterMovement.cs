@@ -1,5 +1,6 @@
 
 using UnityEngine;
+using UnityEngine.Animations;
 
 namespace Assets {
     public class CharacterMovement : MonoBehaviour
@@ -32,29 +33,32 @@ namespace Assets {
             {
                 animator.SetBool(AnimationStringManager.Fall, false);
             }
-            else
+            else 
             {
                 animator.SetBool(AnimationStringManager.Fall, true);
             }
+    
 
 
             if (horizontal != 0f && GameService.Instance.isGrounded(transform) == true) // Velocity X != 0f ( Moving ) and is being Grounded ( not Jump )
             {
-                animator.SetBool(AnimationStringManager.Running, true);
-
+                animator.SetBool(AnimationStringManager.Moving, true);
+            
             }
             else
             {
-                animator.SetBool(AnimationStringManager.Running, false);
+                animator.SetBool(AnimationStringManager.Moving, false);
             }
 
             if (charStats.Speed == 2.5f) // Speed = 2.5F -> Play Crouching animation, else disable
             {
                 animator.SetBool(AnimationStringManager.Crouch, true);
+                animator.SetBool(AnimationStringManager.Running, false);
             }
             else
             {
                 animator.SetBool(AnimationStringManager.Crouch, false);
+                animator.SetBool(AnimationStringManager.Running, true);
             }
 
 
