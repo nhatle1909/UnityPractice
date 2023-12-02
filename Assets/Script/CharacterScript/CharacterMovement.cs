@@ -1,5 +1,6 @@
 
 using UnityEngine;
+using UnityEngine.Animations;
 
 namespace Assets {
     public class CharacterMovement : MonoBehaviour
@@ -26,22 +27,23 @@ namespace Assets {
 
         private void FixedUpdate()
         {
+           
+
             rb.velocity = new Vector2(horizontal * charStats.Speed, rb.velocity.y);
 
             if (rb.velocity.y >= 0f) // Velocity Y >= 0 -> Play Fall Animation , < 0 , Disable Fall Animation
             {
                 animator.SetBool(AnimationStringManager.Fall, false);
             }
-            else
+            else 
             {
                 animator.SetBool(AnimationStringManager.Fall, true);
             }
-
+    
 
             if (horizontal != 0f && GameService.Instance.isGrounded(transform) == true) // Velocity X != 0f ( Moving ) and is being Grounded ( not Jump )
             {
-                animator.SetBool(AnimationStringManager.Running, true);
-
+                animator.SetBool(AnimationStringManager.Running, true);            
             }
             else
             {
@@ -51,12 +53,12 @@ namespace Assets {
             if (charStats.Speed == 2.5f) // Speed = 2.5F -> Play Crouching animation, else disable
             {
                 animator.SetBool(AnimationStringManager.Crouch, true);
+               
             }
             else
             {
                 animator.SetBool(AnimationStringManager.Crouch, false);
             }
-
 
             GameService.Instance.isFlip(rb, transform, xScale);
 

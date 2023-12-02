@@ -6,7 +6,10 @@ namespace Assets
     {
         private void OnCollisionEnter2D(Collision2D collision)
         {
-            ListMapManager.Instance.LoadPreviousMap(transform);
+            if (collision.gameObject.tag == "Player")
+            {
+                ListMapManager.Instance.LoadPreviousMap(transform);
+            }
         }
        
     }

@@ -149,13 +149,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: _Fall_0
+      name: _Fall_1
       rect:
         serializedVersion: 2
-        x: 34
+        x: 159
         y: 0
-        width: 40
-        height: 40
+        width: 29
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,20 +163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13c0c9ca69162994aba2990041d7870e
-      internalID: 602311086
+      spriteID: b4becd17b17a4684998b6a96cb809ed5
+      internalID: -578137377
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _Fall_1
+      name: _Fall_0
       rect:
         serializedVersion: 2
-        x: 154
+        x: 39
         y: 0
-        width: 40
-        height: 40
+        width: 29
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,8 +184,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30c65fc2845f3064f9aa5f399b169dd9
-      internalID: -578137377
+      spriteID: 211c913cb7eef8346ada4e44545781a4
+      internalID: 602311086
       vertices: []
       indices: 
       edges: []
@@ -194,10 +194,10 @@ TextureImporter:
       name: _Fall_2
       rect:
         serializedVersion: 2
-        x: 274
+        x: 279
         y: 0
-        width: 40
-        height: 40
+        width: 29
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,7 +205,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b3f4b1e04b57c642b3e5a067edc95c1
+      spriteID: 82b0f851c25b0b047b2453afc473fbef
       internalID: 638746241
       vertices: []
       indices: 

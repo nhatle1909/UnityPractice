@@ -152,10 +152,10 @@ TextureImporter:
       name: _CrouchFull_0
       rect:
         serializedVersion: 2
-        x: 40
+        x: 43
         y: 0
-        width: 40
-        height: 40
+        width: 29
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,10 +173,10 @@ TextureImporter:
       name: _CrouchFull_1
       rect:
         serializedVersion: 2
-        x: 160
+        x: 163
         y: 0
-        width: 40
-        height: 40
+        width: 29
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,10 +194,10 @@ TextureImporter:
       name: _CrouchFull_2
       rect:
         serializedVersion: 2
-        x: 280
+        x: 283
         y: 0
-        width: 40
-        height: 40
+        width: 29
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -16,7 +16,7 @@ namespace Assets {
         public static string Crouch = "isCrouch";
         public static string Jump = "isJump";
         public static string Fall = "isFall";
-
+        public static string Moving = "isMoving";
 
         public static string Hit = "isHit";
     }

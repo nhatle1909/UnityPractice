@@ -152,12 +152,12 @@ TextureImporter:
       name: _Attack2_1
       rect:
         serializedVersion: 2
-        x: 0
+        x: 158
         y: 0
-        width: 120
-        height: 40
+        width: 42
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -173,12 +173,12 @@ TextureImporter:
       name: _Attack2_3
       rect:
         serializedVersion: 2
-        x: 240
+        x: 390
         y: 0
-        width: 120
-        height: 40
+        width: 64
+        height: 36
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -194,12 +194,12 @@ TextureImporter:
       name: _Attack2_5
       rect:
         serializedVersion: 2
-        x: 480
+        x: 630
         y: 0
-        width: 120
-        height: 40
+        width: 45
+        height: 36
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -215,12 +215,12 @@ TextureImporter:
       name: _Attack2_2
       rect:
         serializedVersion: 2
-        x: 120
+        x: 273
         y: 0
-        width: 120
-        height: 40
+        width: 77
+        height: 41
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -236,12 +236,12 @@ TextureImporter:
       name: _Attack2_4
       rect:
         serializedVersion: 2
-        x: 360
+        x: 510
         y: 0
-        width: 120
-        height: 40
+        width: 46
+        height: 36
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -254,22 +254,22 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _Attack2_6
+      name: _Attack2_0
       rect:
         serializedVersion: 2
-        x: 600
+        x: 42
         y: 0
-        width: 120
-        height: 40
+        width: 38
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c7a580a875837f4e8e806618b0299ab
-      internalID: -1301033774
+      spriteID: 776fd13ea608a364bb9a585bb2a833ca
+      internalID: 1507595919
       vertices: []
       indices: 
       edges: []
@@ -291,7 +291,6 @@ TextureImporter:
       _Attack2_3: -935557166
       _Attack2_4: 677715517
       _Attack2_5: 1766954115
-      _Attack2_6: -1301033774
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
