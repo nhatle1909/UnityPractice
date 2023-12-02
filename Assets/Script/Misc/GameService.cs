@@ -1,5 +1,6 @@
 ﻿
 using UnityEngine;
+using UnityEngine.UI;
 
 
 namespace Assets
@@ -39,7 +40,7 @@ namespace Assets
 
         public void isDamaged(int HP, ref int currentHP,Animator animator)
         {
-            if (currentHP > HP)
+            if (currentHP > HP && currentHP > 0)
             {
                 animator.SetTrigger(AnimationStringManager.Hit);
                 currentHP = HP;
@@ -80,6 +81,24 @@ namespace Assets
                 animator.SetTrigger(AnimationStringManager.Death);
             }
 
+        }
+
+        public void UnEquip(CharacterStats charStats,GameObject weaponEquipped) 
+        {
+            charStats.ATK -= weaponEquipped.GetComponent<Items>().ATK;
+            weaponEquipped.SetActive(false);
+        }
+        public void Equip(CharacterStats charStats, GameObject weaponEquipped,GameObject Item) 
+        {
+            if (!weaponEquipped.activeInHierarchy) 
+            {
+                weaponEquipped.SetActive(true);
+            }
+            weaponEquipped.GetComponent<Items>().ATK = Item.GetComponent<Items>().weapon.ATK;
+            weaponEquipped.GetComponent<Items>().Description = Item.GetComponent<Items>().Description;
+            weaponEquipped.GetComponent<Image>().sprite = Item.GetComponent<Items>().weapon.sprite;
+           
+            charStats.ATK += weaponEquipped.GetComponent<Items>().ATK;
         }
 
     }

@@ -27,6 +27,8 @@ namespace Assets {
 
         private void FixedUpdate()
         {
+           
+
             rb.velocity = new Vector2(horizontal * charStats.Speed, rb.velocity.y);
 
             if (rb.velocity.y >= 0f) // Velocity Y >= 0 -> Play Fall Animation , < 0 , Disable Fall Animation
@@ -39,28 +41,24 @@ namespace Assets {
             }
     
 
-
             if (horizontal != 0f && GameService.Instance.isGrounded(transform) == true) // Velocity X != 0f ( Moving ) and is being Grounded ( not Jump )
             {
-                animator.SetBool(AnimationStringManager.Moving, true);
-            
+                animator.SetBool(AnimationStringManager.Running, true);            
             }
             else
             {
-                animator.SetBool(AnimationStringManager.Moving, false);
+                animator.SetBool(AnimationStringManager.Running, false);
             }
 
             if (charStats.Speed == 2.5f) // Speed = 2.5F -> Play Crouching animation, else disable
             {
                 animator.SetBool(AnimationStringManager.Crouch, true);
-                animator.SetBool(AnimationStringManager.Running, false);
+               
             }
             else
             {
                 animator.SetBool(AnimationStringManager.Crouch, false);
-                animator.SetBool(AnimationStringManager.Running, true);
             }
-
 
             GameService.Instance.isFlip(rb, transform, xScale);
 

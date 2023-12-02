@@ -27,7 +27,8 @@ namespace Assets
         List<string> listMaps = new List<string>()
         {
              { "Village Backside" },
-             { "AstalVillage"}
+             { "AstalVillage"},
+             { "FinalMap" }
         };
         private Transform player = GameObject.Find("Player").transform;
 
@@ -68,7 +69,7 @@ namespace Assets
 
             confiner2D.GetComponent<CinemachineConfiner2D>().m_BoundingShape2D = NewMap.Find("BG").GetComponent<PolygonCollider2D>(); // Change Bounding Shape of Cinemachine Virtual Camera to Polygon Collider of BG of New Map
             
-            player.position = borderRight.position - new Vector3(1.5f, 0.5f, 0f); // Teleport Player
+            player.position = borderRight.position - new Vector3(1.5f, 0f, 0f); // Teleport Player
 
         }
 
@@ -83,11 +84,12 @@ namespace Assets
             CurrentMap.Find("BG").gameObject.SetActive(false); // Deactive BG gameobject of Current Map
 
             borderLeft = NewMap.Find("BorderLeft").transform; // Find Border Left of New Map
-
+          
             confiner2D.GetComponent<CinemachineConfiner2D>().m_BoundingShape2D = NewMap.Find("BG").GetComponent<PolygonCollider2D>(); // Change Bounding Shape of Cinemachine Virtual Camera to Polygon Collider of BG of New Map
 
-            player.position = borderLeft.position + new Vector3(1.5f, 0.5f, 0f); // Teleport Player
+            player.position = borderLeft.position + new Vector3(1.5f, 0f, 0f); // Teleport Player
 
         }
     }
 }
+                                                                                                                                                                                                                                                                                   

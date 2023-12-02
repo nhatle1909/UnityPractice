@@ -59,29 +59,26 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\CharacterScript\CharacterStats.cs" />
-    <Compile Include="Assets\Script\TestCode\Observer.cs" />
     <Compile Include="Assets\Script\BGScript\DisplayMessageScript.cs" />
     <Compile Include="Assets\Script\BGScript\ParallaxScrolling.cs" />
     <Compile Include="Assets\Script\Misc\PlayGame.cs" />
-    <Compile Include="Assets\Script\ScriptThatIsNotUsed_UselessScript\Script.cs" />
+    <Compile Include="Assets\Script\BossScript\BossMovement.cs" />
+    <Compile Include="Assets\Items.cs" />
     <Compile Include="Assets\Script\CharacterScript\CharacterMovement.cs" />
     <Compile Include="Assets\Script\Misc\ListMapManager.cs" />
+    <Compile Include="Assets\Script\ScriptableObject\EnemyStatsTemplate.cs" />
+    <Compile Include="Assets\InventoryManager.cs" />
     <Compile Include="Assets\Script\CharacterScript\CombatManager.cs" />
-    <Compile Include="Assets\Script\TestCode\ICombatObserver.cs" />
     <Compile Include="Assets\Script\EnemyScript\EnemyStats.cs" />
     <Compile Include="Assets\Script\CharacterScript\PlayerCharacterSO.cs" />
-    <Compile Include="Assets\Script\ScriptThatIsNotUsed_UselessScript\IAnimationState.cs" />
-    <Compile Include="Assets\DontDestroyYOUSTUPIDscript.cs" />
     <Compile Include="Assets\Script\Misc\GameService.cs" />
     <Compile Include="Assets\Script\BGScript\LoadNextMap.cs" />
-    <Compile Include="Assets\Script\EnemyScript\EnemyStatsScriptableObject\EnemyStatsTemplate.cs" />
-    <Compile Include="Assets\Script\TestCode\CombatObserver.cs" />
-    <Compile Include="Assets\CameraRenderScript.cs" />
     <Compile Include="Assets\Script\EnemyScript\EnemyCombatScript.cs" />
-    <Compile Include="Assets\Script\ScriptThatIsNotUsed_UselessScript\AnimationState.cs" />
     <Compile Include="Assets\Script\CharacterScript\CharacterMovementBinding.cs" />
+    <Compile Include="Assets\Script\BossScript\BossBehaviour.cs" />
     <Compile Include="Assets\Script\BGScript\LoadPreviousMap.cs" />
-    <Compile Include="Assets\Script\TestCode\IObserver.cs" />
+    <Compile Include="Assets\Script\ScriptableObject\WeaponSO.cs" />
+    <Compile Include="Assets\Script\EventManager\ShopEventManager.cs" />
     <Compile Include="Assets\Script\EnemyScript\PatrolScript.cs" />
     <Compile Include="Assets\Script\CharacterScript\AnimationStringManager.cs" />
   </ItemGroup>
@@ -99,10 +96,11 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
-    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\UI\Free Inventory\License.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />

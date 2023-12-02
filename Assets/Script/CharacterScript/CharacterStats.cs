@@ -18,7 +18,7 @@ namespace Assets
         public float Speed;
         [SerializeField]
         public float Jump_Force;
-
-
+      
     }
+   
 }

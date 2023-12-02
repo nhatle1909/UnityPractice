@@ -15,6 +15,7 @@ namespace Assets
         }
         public void ExitGame()
         {
+
             Application.Quit();
         }
     }

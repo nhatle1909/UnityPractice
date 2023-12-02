@@ -1,0 +1,927 @@
+fileFormatVersion: 2
+guid: 329eaa6e82bc86c4f9d363ff5d1032ef
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Kaien_12_Running A_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1920
+        width: 70
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914dccc1c5b47e84382b1142488fd2b0
+      internalID: -1170029686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaien_12_Running A_3
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1922
+        width: 68
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39334ae17dc65e54ca040ec8c2a774be
+      internalID: 1279045552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaien_12_Running A_5
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1920
+        width: 81
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8efaa41d7cca4e248b89915fba5ac5a6
+      internalID: 285580180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaien_12_Running A_7
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1920
+        width: 73
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a79d184f9ce254caf161faba42e776
+      internalID: 839733592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaien_12_Running A_8
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1920
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a6359a5a631c564e9d08a51dc96477c
+      internalID: 837499643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaien_12_Running A_9
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1921
+        width: 72
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509e91d7e3ef53f49b51266e3c62403b
+      internalID: -1657999487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaien_12_Running A_12
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1920
+        width: 94
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d70313433c51f248a9230dfbde48bdc
+      internalID: -769637640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaien_12_Running A_14
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 1923
+        width: 83
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 526b40815c5077348a49214741d96a60
+      internalID: 627224536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaien_12_Running A_16
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1664
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f9830a844c356439d81ef228ec56ee
+      internalID: -816669352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaien_12_Running A_17
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1664
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7801408bb940823448a8899f2b23bda2
+      internalID: 1466162118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaien_12_Running A_19
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1664
+        width: 69
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7a76928fb524c4ca8901c44e80728a
+      internalID: -251713023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaien_12_Running A_21
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1665
+        width: 68
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6710e2766d360074499281d2b1551226
+      internalID: 98413047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaien_12_Running A_23
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 1661
+        width: 82
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f336e0bfafa5fd44c8ada145066ea022
+      internalID: -1150669435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaien_12_Running A_26
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 1662
+        width: 82
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb9f586b57167e408ee8c628d90333f
+      internalID: -187253297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaien_12_Running A_29
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 1661
+        width: 81
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c952496c7457f43975b4c35a7fe85b
+      internalID: -442649315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaien_12_Running A_32
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 1661
+        width: 77
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59db470f368d7b24b8bb282e72e5d75c
+      internalID: 344098282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaien_12_Running A_36
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1408
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d75bc2c5e796a146b9c40b35fea226d
+      internalID: -121216871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaien_12_Running A_37
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1408
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad273dca4e545441bd0bdfe9537dec4
+      internalID: -645350815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaien_12_Running A_38
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1408
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2996a142c069a4547829a95f52258a51
+      internalID: 184506672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaien_12_Running A_39
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1408
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4f2e7f48fb4b24eac53683336d8313
+      internalID: 1637819585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaien_12_Running A_40
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1408
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae473cf57cfb034bbf74b3adfaceb77
+      internalID: -1605191289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaien_12_Running A_41
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1408
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3a0f356f4b56841b1bbeacf6e96c38
+      internalID: 1914824259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaien_12_Running A_42
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 1408
+        width: 64
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa37054038b5cf84fbc07903fb4701c8
+      internalID: 1884950229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaien_12_Running A_49
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1152
+        width: 64
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c36d7b27f70f845babbfd2d9cf08f4
+      internalID: 535372438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaien_12_Running A_50
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1152
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 9}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9218d57559fd7f74e8ac9898bc4e3fd3
+      internalID: 1909756413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaien_12_Running A_51
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1152
+        width: 64
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38e27d73eccd544fa67de67eacf33d0
+      internalID: -1116855560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaien_12_Running A_52
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1152
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 9}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1004cbaa38ffc6e4fb6652885a998242
+      internalID: -38379696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaien_12_Running A_53
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1152
+        width: 64
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a324acb4ef63d4ba211916b6bdc30b
+      internalID: 1540126335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaien_12_Running A_55
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1152
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 9}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf15c9147336ea4f9a12c360a8fcc2d
+      internalID: -760223729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaien_12_Running A_57
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1152
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 7}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5ee46dbfa43e047b666f4a6637097c
+      internalID: -1525818288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaien_12_Running A_58
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 1152
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 9}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79825fae3117c464992d46a4f0885aaa
+      internalID: -1503113278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaien_12_Running A_64
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 893
+        width: 64
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 9}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa23271e24c18d47ba72ca361257053
+      internalID: -929575452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kaien_12_Running A_65
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 893
+        width: 65
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2534c807203144e809840093c00e59
+      internalID: -1552286053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Kaien_12_Running A_0: -1331869834
+      Kaien_12_Running A_1: -1170029686
+      Kaien_12_Running A_10: -826970250
+      Kaien_12_Running A_11: 854295681
+      Kaien_12_Running A_12: -769637640
+      Kaien_12_Running A_13: 1216300769
+      Kaien_12_Running A_14: 627224536
+      Kaien_12_Running A_15: -1999276514
+      Kaien_12_Running A_16: -816669352
+      Kaien_12_Running A_17: 1466162118
+      Kaien_12_Running A_18: -1931430187
+      Kaien_12_Running A_19: -251713023
+      Kaien_12_Running A_2: -607061042
+      Kaien_12_Running A_20: 480654111
+      Kaien_12_Running A_21: 98413047
+      Kaien_12_Running A_22: 946599713
+      Kaien_12_Running A_23: -1150669435
+      Kaien_12_Running A_24: 136148566
+      Kaien_12_Running A_25: 672214564
+      Kaien_12_Running A_26: -187253297
+      Kaien_12_Running A_27: -133846055
+      Kaien_12_Running A_28: 686541719
+      Kaien_12_Running A_29: -442649315
+      Kaien_12_Running A_3: 1279045552
+      Kaien_12_Running A_30: 823610848
+      Kaien_12_Running A_31: -18897195
+      Kaien_12_Running A_32: 344098282
+      Kaien_12_Running A_33: 68137199
+      Kaien_12_Running A_34: 1529889538
+      Kaien_12_Running A_35: 1710170541
+      Kaien_12_Running A_36: -121216871
+      Kaien_12_Running A_37: -645350815
+      Kaien_12_Running A_38: 184506672
+      Kaien_12_Running A_39: 1637819585
+      Kaien_12_Running A_4: 823336454
+      Kaien_12_Running A_40: -1605191289
+      Kaien_12_Running A_41: 1914824259
+      Kaien_12_Running A_42: 1884950229
+      Kaien_12_Running A_43: 1402921646
+      Kaien_12_Running A_44: -804215252
+      Kaien_12_Running A_45: 1768836764
+      Kaien_12_Running A_46: 1222663368
+      Kaien_12_Running A_47: 1341083899
+      Kaien_12_Running A_48: -1507301143
+      Kaien_12_Running A_49: 535372438
+      Kaien_12_Running A_5: 285580180
+      Kaien_12_Running A_50: 1909756413
+      Kaien_12_Running A_51: -1116855560
+      Kaien_12_Running A_52: -38379696
+      Kaien_12_Running A_53: 1540126335
+      Kaien_12_Running A_54: 210308929
+      Kaien_12_Running A_55: -760223729
+      Kaien_12_Running A_56: -1574990139
+      Kaien_12_Running A_57: -1525818288
+      Kaien_12_Running A_58: -1503113278
+      Kaien_12_Running A_59: -1342776449
+      Kaien_12_Running A_6: 577736109
+      Kaien_12_Running A_60: 2144686188
+      Kaien_12_Running A_61: 343199949
+      Kaien_12_Running A_62: 1342371294
+      Kaien_12_Running A_63: -1142451249
+      Kaien_12_Running A_64: -929575452
+      Kaien_12_Running A_65: -1552286053
+      Kaien_12_Running A_66: 1125352342
+      Kaien_12_Running A_67: -918669586
+      Kaien_12_Running A_7: 839733592
+      Kaien_12_Running A_8: 837499643
+      Kaien_12_Running A_9: -1657999487
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
