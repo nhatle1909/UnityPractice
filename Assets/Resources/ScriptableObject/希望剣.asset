@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a4049b4f2c54c146b24ebc88b1b8052, type: 3}
+  m_Name: "\u5E0C\u671B\u5263"
+  m_EditorClassIdentifier: 
+  ATK: 13
+  Name: "\u5E0C\u671B\u5263"
+  sprite: {fileID: 639109937, guid: ac6182f9fb46b3a46a32b40003b16a88, type: 3}
+  Description: "\u3053\u306E\u5263\u306F\u4E03\u4EBA\u306E\u6B4C\u3068\u5E0C\u671B\u3067\u4F5C\u308A"
+  Price: 777

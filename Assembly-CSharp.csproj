@@ -58,27 +58,28 @@
     <Analyzer Include="D:\DevTools\Unity\Unity Editor\2022.3.10f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\StartCutsceneScript.cs" />
     <Compile Include="Assets\Script\CharacterScript\CharacterStats.cs" />
     <Compile Include="Assets\Script\BGScript\DisplayMessageScript.cs" />
     <Compile Include="Assets\Script\BGScript\ParallaxScrolling.cs" />
     <Compile Include="Assets\Script\Misc\PlayGame.cs" />
     <Compile Include="Assets\Script\BossScript\BossMovement.cs" />
-    <Compile Include="Assets\Items.cs" />
+    <Compile Include="Assets\Script\Coin.cs" />
     <Compile Include="Assets\Script\CharacterScript\CharacterMovement.cs" />
     <Compile Include="Assets\Script\Misc\ListMapManager.cs" />
     <Compile Include="Assets\Script\ScriptableObject\EnemyStatsTemplate.cs" />
-    <Compile Include="Assets\InventoryManager.cs" />
+    <Compile Include="Assets\Script\InventoryManager.cs" />
     <Compile Include="Assets\Script\CharacterScript\CombatManager.cs" />
     <Compile Include="Assets\Script\EnemyScript\EnemyStats.cs" />
-    <Compile Include="Assets\Script\CharacterScript\PlayerCharacterSO.cs" />
     <Compile Include="Assets\Script\Misc\GameService.cs" />
     <Compile Include="Assets\Script\BGScript\LoadNextMap.cs" />
     <Compile Include="Assets\Script\EnemyScript\EnemyCombatScript.cs" />
-    <Compile Include="Assets\Script\CharacterScript\CharacterMovementBinding.cs" />
+    <Compile Include="Assets\Script\CharacterScript\InputSystem.cs" />
+    <Compile Include="Assets\Script\ShopManager.cs" />
+    <Compile Include="Assets\Script\Items.cs" />
     <Compile Include="Assets\Script\BossScript\BossBehaviour.cs" />
     <Compile Include="Assets\Script\BGScript\LoadPreviousMap.cs" />
     <Compile Include="Assets\Script\ScriptableObject\WeaponSO.cs" />
-    <Compile Include="Assets\Script\EventManager\ShopEventManager.cs" />
     <Compile Include="Assets\Script\EnemyScript\PatrolScript.cs" />
     <Compile Include="Assets\Script\CharacterScript\AnimationStringManager.cs" />
   </ItemGroup>
