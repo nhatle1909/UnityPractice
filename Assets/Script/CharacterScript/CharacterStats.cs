@@ -18,7 +18,14 @@ namespace Assets
         public float Speed;
         [SerializeField]
         public float Jump_Force;
-      
+        [SerializeField]
+        public int Coin;
+
+        public static CharacterStats instance;
+        public void Awake()
+        {
+            instance = this;
+        }
     }
    
 }

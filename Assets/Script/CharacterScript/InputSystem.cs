@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace Assets
 {
-    public class CharacterMovementBinding : MonoBehaviour
+    public class InputSystem : MonoBehaviour
     {
 
         private Animator animator;
@@ -57,6 +57,13 @@ namespace Assets
             }
         }
 
-       
+       public void ESC(InputAction.CallbackContext context) 
+        {
+
+        }
+        public void InventoryButton(InputAction.CallbackContext context)
+        { 
+        
+        }
     }
 }
