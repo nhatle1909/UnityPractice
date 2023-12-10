@@ -7,44 +7,42 @@ namespace Assets
 {
     public class InputSystem : MonoBehaviour
     {
-
+     
         private Animator animator;
-        private CharacterMovement charMovement;
-        private CharacterStats charStats;
+        public DisplayShop displayShop;
         private void Start() 
         { 
-            charStats = GetComponent<CharacterStats>();
-            charMovement = GetComponent<CharacterMovement>();
             animator = GetComponent<Animator>();
+            displayShop = GameObject.Find("shop").GetComponent<DisplayShop>();
         }
 
         public void Jump(InputAction.CallbackContext context)
         {
-            if (context.performed && GameService.Instance.isGrounded(charMovement.transform) == true) //Press Space Button + Player is staying on ground
+            if (context.performed && MovementService.Instance.isGrounded(MovementController.instance.transform) == true) //Press Space Button + Player is staying on ground
             {
                 animator.SetBool(AnimationStringManager.Running, false); // Disable playing Run Animation when jump while running
                 animator.SetBool(AnimationStringManager.Crouch, false); // Disable playing Crouch Animation when jump while Crouching
                 animator.SetTrigger(AnimationStringManager.Jump); // Enable playing Jump Animation
 
-                charMovement.rb.velocity = new Vector2(charMovement.horizontal, charStats.Jump_Force);
+                MovementController.instance.rb.velocity = new Vector2(MovementController.instance.horizontal, CharacterManager.instance.Jump_Force);
             }
         }
 
         public void Move(InputAction.CallbackContext context)
         {
-            charMovement.horizontal = context.ReadValue<Vector2>().x;
+            MovementController.instance.horizontal = context.ReadValue<Vector2>().x;
         }
 
         public void Crouch(InputAction.CallbackContext context)
         {       
             if (context.performed)
             {
-                charStats.Speed = 2.5f;
+                CharacterManager.instance.Speed = 2.5f;
             }
 
             if (context.canceled)
             {
-                charStats.Speed = 5f;     
+                CharacterManager.instance.Speed = 5f;     
             }
         }
 
@@ -57,6 +55,14 @@ namespace Assets
             }
         }
 
+       public void Interact(InputAction.CallbackContext context)
+        {
+            if (context.performed) 
+            {
+                displayShop.isInteract = true;
+            }
+           
+        }
        public void ESC(InputAction.CallbackContext context) 
         {
 

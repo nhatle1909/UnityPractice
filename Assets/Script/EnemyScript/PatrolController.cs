@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.UIElements;
 
-public class PatrolScript : MonoBehaviour
+public class PatrolController : MonoBehaviour
 {
 
     public bool isMovingRight = true;
@@ -15,15 +15,17 @@ public class PatrolScript : MonoBehaviour
     private EnemyStats enemyStats;
 
     float xscale;
+
     void Start()
     {
+    
         enemyStats = GetComponent<EnemyStats>();
         rb = GetComponent<Rigidbody2D>();
         xscale = transform.localScale.x;
     }
 
 
-    void FixedUpdate()
+    public void EnemyPatrol()
     {
         if (isMovingRight)
         {
@@ -43,7 +45,7 @@ public class PatrolScript : MonoBehaviour
             isMovingRight = true;
         }
 
-        GameService.Instance.isFlip(rb, transform, xscale);
+        MovementService.Instance.isFlip(rb, transform, xscale);
     }
 
 

@@ -17,6 +17,7 @@ namespace Assets
         [SerializeField]
         public int Price;
 
+
         public WeaponSO weapon;
         public Image image;
         public Button button;
@@ -36,7 +37,7 @@ namespace Assets
             }
             if (transform.parent.gameObject.name.Equals("Shop"))
             {
-                button.onClick.AddListener(() => ShopManager.instance.Add(gameObject));
+                button.onClick.AddListener(() => ShopManager.instance.Buy(gameObject));
             }
         }
         public void AssignItemInfor()

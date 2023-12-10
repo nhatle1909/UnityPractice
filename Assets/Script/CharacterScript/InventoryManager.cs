@@ -19,17 +19,9 @@ public class InventoryManager : MonoBehaviour
         gameObject.SetActive(false);
     }
     
-    private void Update()
+    public void InventoryCheck()
     {
-        
-        if (inventory.transform.childCount == 18) // Max Item Number in inventory is 18 
-        {
-            isFullItem = true;
-        }
-        else 
-        {
-            isFullItem = false;
-        }
+        isFullItem = inventory.transform.childCount == 18; 
     }
  
 
@@ -39,10 +31,10 @@ public class InventoryManager : MonoBehaviour
         {
             UnEquip();
         }
-        GameService.Instance.Equip(CharacterStats.instance,weaponEquipped,item);
+        ItemService.Instance.Equip(CharacterManager.instance,weaponEquipped,item);
     }
     public void UnEquip() 
     {
-        GameService.Instance.UnEquip(CharacterStats.instance, weaponEquipped);
+        ItemService.Instance.UnEquip(CharacterManager.instance, weaponEquipped);
     }
 }

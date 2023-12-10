@@ -30,6 +30,7 @@ namespace Assets
              { "AstalVillage"},
              { "FinalMap" }
         };
+        
         private Transform player = GameObject.Find("Player").transform;
 
         private GameObject confiner2D = GameObject.Find("Virtual Camera");

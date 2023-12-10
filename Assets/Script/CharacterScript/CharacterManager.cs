@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using UnityEngine;
 namespace Assets
 {
-    public class CharacterStats : MonoBehaviour
+    public class CharacterManager : MonoBehaviour
     {
         [SerializeField]
         public int HP;
@@ -21,10 +21,21 @@ namespace Assets
         [SerializeField]
         public int Coin;
 
-        public static CharacterStats instance;
-        public void Awake()
+        public static CharacterManager instance;
+        public void Start()
         {
             instance = this;
+        }
+        public void Update()
+        {
+            InventoryManager.instance.InventoryCheck();
+            CoinManager.instance.CoinUpdate();
+            
+        }
+        private void FixedUpdate()
+        {
+            MovementController.instance.Movement();
+            CombatController.instance.Combat();
         }
     }
    

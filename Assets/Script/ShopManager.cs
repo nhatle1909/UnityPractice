@@ -26,32 +26,14 @@ namespace Assets
 
         public void ItemGenerate() 
         {
-          
-            itemList = Resources.LoadAll<WeaponSO>("ScriptableObject/");
-            for (int i = 0; i < ShopItemCount; i++) 
-            {
-         
-                GameObject newWeapon = Instantiate(Resources.Load<GameObject>("Prefab/Weapon")) as GameObject;
-                newWeapon.GetComponent<Items>().weapon = itemList[Random.Range(0,itemList.Length)] ;
-                newWeapon.GetComponent<RectTransform>().sizeDelta = new Vector2(150f, 100f);
-               
-                newWeapon.transform.SetParent(transform);
-                newWeapon.transform.localScale = new Vector2(1f, 1f);
-            }
+            ItemService.Instance.ItemGenerate(itemList,ShopItemCount,transform);   
         }
 
-        public void Add(GameObject item)
+        public void Buy(GameObject item)
         {
-            if (InventoryManager.instance.isFullItem == false && CharacterStats.instance.Coin >= item.GetComponent<Items>().weapon.Price)
+            if (InventoryManager.instance.isFullItem == false && CharacterManager.instance.Coin >= item.GetComponent<Items>().weapon.Price)
             {
-                CharacterStats.instance.Coin -= item.GetComponent<Items>().weapon.Price;
-                GameObject newWeapon = Instantiate(Resources.Load<GameObject>("Prefab/Weapon")) as GameObject;
-                newWeapon.GetComponent<Items>().weapon = item.GetComponent<Items>().weapon;
-                newWeapon.GetComponent<RectTransform>().sizeDelta = new Vector2(150f, 100f);
-
-                newWeapon.transform.SetParent(InventoryManager.instance.inventory.transform);
-                newWeapon.transform.localScale = new Vector2(1f, 1f);
-                Destroy(item);
+               ItemService.Instance.Buy(item);
             }
         }
     }

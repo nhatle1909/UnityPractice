@@ -5,27 +5,28 @@ namespace Assets
 {
     public class DisplayMessageScript : MonoBehaviour
     {
-        private BoxCollider2D detectionZone;
+   
         private SpriteRenderer[] messages;
+
+        public Canvas canvasElement;
+   
         // Start is called before the first frame update
         void Start()
         {
-            messages = GetComponentsInChildren<SpriteRenderer>();
-            detectionZone = GetComponent<BoxCollider2D>();
+            messages = GetComponentsInChildren<SpriteRenderer>();    
         }
 
         // Update is called once per frame
-        void Update()
-        {
-
-        }
+       
         void OnTriggerStay2D(Collider2D other)
         {
-            foreach (SpriteRenderer message in messages)
+            if (other.gameObject.tag == "Player")
             {
-                message.enabled = true;
+                foreach (SpriteRenderer message in messages)
+                {
+                    message.enabled = true;
+                }        
             }
-
         }
         private void OnTriggerExit2D(Collider2D collision)
         {

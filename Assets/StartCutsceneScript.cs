@@ -8,23 +8,23 @@ public class StartCutsceneScript : MonoBehaviour
 {
     // Start is called before the first frame update
     public CinemachineBrain cmBrain;
-    public Vector2 startPos = new Vector2 (8.875325f,0f);
-    public CharacterMovement cm;
+   
     void Start()
     {
         cmBrain = GetComponent<CinemachineBrain>();
-        
+        CharacterManager.instance.enabled = false;     
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position += new Vector3(1f*Time.fixedDeltaTime,0f,0f);
+        transform.position += new Vector3(1.5f*Time.fixedDeltaTime,0f,0f);
         if (transform.position.x > 9f) 
         {
             
             cmBrain.enabled = true;
-            cm.enabled = true;
+
+            CharacterManager.instance.enabled = true;
             this.enabled = false;
             
         }
