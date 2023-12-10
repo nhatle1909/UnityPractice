@@ -11,9 +11,10 @@ namespace Assets
         public Camera MainCamera; //Reference of the camera.
 
 
-
+        public static ParallaxEffect instance;
         private void Start()
         {
+            instance = this;
             //Getting the starting X position of sprite.
             _startingPos = transform.position.x;
             //Getting the length of the sprites.
@@ -22,7 +23,7 @@ namespace Assets
 
 
 
-        private void Update()
+        public void Update()
         {
             Vector3 Position = MainCamera.transform.position;
             float Temp = Position.x * (1 - AmountOfParallax);

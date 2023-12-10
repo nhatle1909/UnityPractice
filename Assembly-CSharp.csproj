@@ -59,29 +59,33 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\StartCutsceneScript.cs" />
-    <Compile Include="Assets\Script\CharacterScript\CharacterStats.cs" />
+    <Compile Include="Assets\Script\Misc\InputSystem.cs" />
+    <Compile Include="Assets\Script\CharacterScript\CharacterManager.cs" />
     <Compile Include="Assets\Script\BGScript\DisplayMessageScript.cs" />
     <Compile Include="Assets\Script\BGScript\ParallaxScrolling.cs" />
     <Compile Include="Assets\Script\Misc\PlayGame.cs" />
     <Compile Include="Assets\Script\BossScript\BossMovement.cs" />
-    <Compile Include="Assets\Script\Coin.cs" />
-    <Compile Include="Assets\Script\CharacterScript\CharacterMovement.cs" />
+    <Compile Include="Assets\Script\CharacterScript\CombatController.cs" />
+    <Compile Include="Assets\Script\CharacterScript\InventoryManager.cs" />
     <Compile Include="Assets\Script\Misc\ListMapManager.cs" />
+    <Compile Include="Assets\Script\CharacterScript\Coin.cs" />
+    <Compile Include="Assets\Script\Misc\AnimationStringManager.cs" />
     <Compile Include="Assets\Script\ScriptableObject\EnemyStatsTemplate.cs" />
-    <Compile Include="Assets\Script\InventoryManager.cs" />
-    <Compile Include="Assets\Script\CharacterScript\CombatManager.cs" />
+    <Compile Include="Assets\Script\GameService\MovementService.cs" />
+    <Compile Include="Assets\Script\EnemyScript\EnemyCombatController.cs" />
+    <Compile Include="Assets\Script\EnemyScript\PatrolController.cs" />
     <Compile Include="Assets\Script\EnemyScript\EnemyStats.cs" />
-    <Compile Include="Assets\Script\Misc\GameService.cs" />
     <Compile Include="Assets\Script\BGScript\LoadNextMap.cs" />
-    <Compile Include="Assets\Script\EnemyScript\EnemyCombatScript.cs" />
-    <Compile Include="Assets\Script\CharacterScript\InputSystem.cs" />
+    <Compile Include="Assets\Script\EnemyScript\EnemyManager.cs" />
+    <Compile Include="Assets\Script\GameService\ItemService.cs" />
+    <Compile Include="Assets\Script\GameService\CombatService.cs" />
+    <Compile Include="Assets\Script\CharacterScript\MovementController.cs" />
     <Compile Include="Assets\Script\ShopManager.cs" />
     <Compile Include="Assets\Script\Items.cs" />
     <Compile Include="Assets\Script\BossScript\BossBehaviour.cs" />
     <Compile Include="Assets\Script\BGScript\LoadPreviousMap.cs" />
+    <Compile Include="Assets\DisplayShop.cs" />
     <Compile Include="Assets\Script\ScriptableObject\WeaponSO.cs" />
-    <Compile Include="Assets\Script\EnemyScript\PatrolScript.cs" />
-    <Compile Include="Assets\Script\CharacterScript\AnimationStringManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

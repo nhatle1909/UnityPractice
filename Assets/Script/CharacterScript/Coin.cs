@@ -4,16 +4,18 @@ using UnityEngine;
 
 namespace Assets
 {
-    public class Coin : MonoBehaviour
+    public class CoinManager : MonoBehaviour
     {
         private TextMeshProUGUI coinNumber;
+        public static CoinManager instance;
         public void Start()
         {
+            instance = this;
             coinNumber = GetComponent<TextMeshProUGUI>();
         }
-        public void Update()
+        public void CoinUpdate()
         {
-            coinNumber.SetText(CharacterStats.instance.Coin.ToString());
+            coinNumber.SetText(CharacterManager.instance.Coin.ToString());
         }
     }
 }
