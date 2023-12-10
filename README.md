@@ -9,3 +9,4 @@
 # Credits
    - Developer : Lê Nguyên Nhật SE162139
    - Asset Source : Itch.io
+   - Support in Learning Progress : Nguyễn Hùng Nghĩa
